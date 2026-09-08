@@ -23,17 +23,28 @@ nav a {
    font-size: 22px;
    text-decoration: none;
 }
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
 .produtos{
     width: 940px;
     margin: 0 auto;
+    padding: 50px 0;
 }
 .produtos li{
     display: inline-block;
     text-align: center;
     width: 30%;
     vertical-align: top;
-    background-color: #cccccc;
     margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+.produtos li:hover{
+    border: 2px solid #c78c19;
 }
 .produtos h2{
     font-size: 22px;
@@ -46,4 +57,5 @@ nav a {
 .preco{ 
     font-size: 22px;
     font-weight: bold;
+    margin-top: 10px;
 }
